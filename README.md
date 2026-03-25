@@ -1,6 +1,8 @@
 # Harness for My Grandma
 
-> **Built on the latest harness engineering research from [Anthropic](https://www.anthropic.com/engineering/harness-design-long-running-apps) and [OpenAI](https://openai.com/index/harness-engineering/).** Their design principles — Generator-Evaluator separation, progressive context disclosure, blast-radius classification, mechanical enforcement, and garbage collection — are re-engineered here for people who have never written a line of code.
+> **Prompt Engineering → Context Engineering → Harness Engineering**
+>
+> How we use AI is evolving. We've moved past the era of crafting better prompts, past designing better context, and into **designing the environment in which AI works.** Built on the latest harness engineering research from [Anthropic](https://www.anthropic.com/engineering/harness-design-long-running-apps) and [OpenAI](https://openai.com/index/harness-engineering/) — their design principles (Generator-Evaluator separation, progressive context disclosure, blast-radius classification, mechanical enforcement, garbage collection) are re-engineered here for people who have never written a line of code.
 
 **A tool that lets non-developers tell AI what to build.**
 
@@ -39,6 +41,7 @@ This tool solves these problems:
 - Results are reported as behavior changes, not code ("Before: goes to homepage. After: goes to dashboard")
 - Simple fixes are handled instantly without asking
 - Critical changes get verified by a separate QA agent
+- The tech stack (programming languages, tools, etc.) is automatically selected by the AI — it picks what it works best with, so you don't have to choose
 
 ## A Day in the Life: Building an Online Ordering Site for "Flour Power" Bakery
 
