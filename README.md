@@ -151,6 +151,19 @@ AI:  Cleanup complete
 
 Requires [Claude Code](https://claude.com/claude-code).
 
+### Option 1: Ask Claude Code to do it (easiest)
+
+Open Claude Code and paste this one line:
+
+```
+Take the files in the commands/ folder from this repo and set them up as skills in ~/.claude/commands/:
+https://github.com/junbbbb/harness-for-my-grandma
+```
+
+Claude Code will download and install them for you.
+
+### Option 2: Manual install
+
 ```bash
 # 1. Download this project
 git clone https://github.com/junbbbb/harness-for-my-grandma.git
